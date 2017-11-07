@@ -1,0 +1,57 @@
+.k_con{
+	width: 100%;
+	color: #666666;	
+	margin-top: 30px;
+}
+.k_con .k_body{
+	width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+.k_con .k_body h1{
+	font-weight: normal;
+	font-size: 50px;
+	text-align: center;
+}
+.k_con .k_body ul{
+	width: 1000px;
+	height: 80px;
+	display: inline-block;
+	float: left;
+	margin: 20px 10px; 
+	text-align: center;
+} 
+.k_con .k_body ul li{
+	width: 100px;
+	height: 40px;
+	display: inline-block;
+	font-size: 14px;
+	margin: 20px 10px;
+}
+.k_con .k_body ul li.on,.k_con .k_body ul li:hover{
+	border-bottom: 3px solid #FE5341;
+}
+.k_con .k_body ul li a{
+	font-weight: normal;
+	font-size: 24px;
+	text-align: center;
+	margin-left: 20px;
+	}
+.load_more{
+	text-align: center;
+	color: #FE5341;
+	font-size: 16px;
+	background: #FFFFFF;
+	padding: 10px 0 30px;
+	cursor: pointer;
+}
+.load_more a{
+	color: #FE5341;
+}
+.load_more span{
+	display: inline-block;
+	width: 16px;
+	height: 8px;
+	background: url(../img/icon/more.png) no-repeat;
+}

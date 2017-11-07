@@ -1,0 +1,52 @@
+/*主体*/
+.log_con{
+	width: 100%;
+	background-color: #f5f5f5;
+	padding: 20px 0 30px;
+}
+.log_con .log_body{
+	width: 1000px;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px;
+	background-color: #fff;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+.log_con .log_body h2{
+	font-weight: normal;
+	font-size: 20px;
+	border-left: 5px solid #FE5341;
+	padding-left: 20px;
+	margin: 50px 0;
+}
+.log_con .log_body .ipt_con{
+	width: 370px;
+	margin: 0 auto;
+}
+.log_con .log_body input,
+.log_con .log_body .ipt_con button{
+	height: 50px;
+	width: 370px;
+	border: none;
+	background-color: #F2F2F2;
+	border-radius: 15px;
+	font-size: 16px;
+	padding: 0 10px;
+	margin: 15px 0;
+  }
+.log_con .log_body input:focus{
+	outline: auto;
+	outline-color: #A6c8ff;
+}
+.log_con .log_body .ipt_con button{
+	width: 385px;
+	background-color: #FE5341;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.log_con .log_body .ipt_con button:hover{
+	background-color: #A6C8FF;
+}
